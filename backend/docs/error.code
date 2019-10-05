@@ -1,0 +1,13 @@
+6 digit code
+
+1st digit => module [1 => middlewares, 2 => controllers]
+2nd & 3rd digit => component No.  (e.g. 00 => Fruits)
+4th digit => operation [0 => create, 1 => retrieve, 2 => update, 3 => delete]
+5th & 6th digit => error serial number
+
+(Note: count digits left to right)
+
+
+Example:
+Error Code 200100
+means first error in retrieve function of controllers of fruits
